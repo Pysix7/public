@@ -1,7 +1,21 @@
-const http = require('http');
+const express = require('express');
+const bodyParser = require('body-parser');
+const adminRouter = require('./routes/admin');
+const shopRouter = require('./routes/shop');
 
-const routes = require('./routes');
-console.log(routes.someText);
-const server = http.createServer(routes.handler);
+const app = express();
 
-server.listen(1000);
+app.use(bodyParser.urlencoded({extended:false}));
+
+app.use(adminRouter);
+app.use(shopRouter);
+
+app.use('/favicon.ico',(req,res,next)=>{res.sendStatus(204)});
+
+app.use((req, res, next)=>{
+    res.status(404).send('<h1>Page not found!</h1>');
+});
+
+const port = 1000;
+
+app.listen(port,()=>{console.log('listnentening on port',port)});

@@ -1,0 +1,19 @@
+{
+  "name": "Projects",
+  "version": "1.0.0",
+  "description": "my public repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pysix7/public.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pysix7/public/issues"
+  },
+  "homepage": "https://github.com/Pysix7/public#readme"
+}
