@@ -126,7 +126,7 @@ html {
 .main-nav li:hover a,
 .main-nav li.active a {
     background: #fff;
-    color: #8c363e;
+    color: #ff4a21;
 }
 
 /* Sidebar Menu */
@@ -136,8 +136,8 @@ html {
 }
 
 .menu .image img {
-    width: 140px;
-    height: 140px;
+    width: 200px;
+    /* height: 140px; */
     border-radius: 50%;
     text-align: center;
 }
@@ -223,8 +223,9 @@ html {
     left: 10%;
   -webkit-transition: -webkit-transform 233ms cubic-bezier(0, 0, 0.21, 1);
   -webkit-overflow-scrolling: touch;
-  background-color: #a43f49;
+  background-color: #596bb9;
   box-sizing: border-box;
+  margin: 20px 0;
   height: 100vh;  
   max-height: 100vh !important;
   max-width: 80vw !important;
