@@ -270,7 +270,7 @@ eval("module.exports = function(module) {\n\tif (!module.webpackPolyfill) {\n\t\
 
 /***/ }),
 
-/***/ 2:
+/***/ 1:
 /*!**************************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=%2Fhome%2Fprathap%2Fprojects%2Fcode%2Fpf%2Fnode_modules%2Fnext%2Fdist%2Fpages%2F_error.js ***!
   \**************************************************************************************************************************************************************************************/
@@ -293,4 +293,4 @@ eval("module.exports = dll_bc0d5849ba5e3f817896;//# sourceURL=[module]\n//# sour
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
