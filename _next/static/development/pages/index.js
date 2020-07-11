@@ -5156,7 +5156,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* WEBPACK VAR INJECTION */(f
 
 /***/ }),
 
-/***/ 2:
+/***/ 1:
 /*!**********************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fprathap%2Fprojects%2Fcode%2Fpf%2Fsrc%2Fpages%2Findex.js ***!
   \**********************************************************************************************************************************/
@@ -5179,4 +5179,4 @@ eval("module.exports = dll_bc0d5849ba5e3f817896;//# sourceURL=[module]\n//# sour
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js","styles"]]]);
+},[[1,"static/runtime/webpack.js","styles"]]]);
